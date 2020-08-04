@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#prezzo{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.fondo{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/jacobite-express-123rf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.content{
+  display: flex;
+  height: 100vh;
+}
+
+
+.biglietto{
+  display: flex;
+  margin:auto;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;;
+  background-color: rgba(198, 214, 143, 0.8);
+}
+
+
+#scritta{
+  margin: auto;
+}
